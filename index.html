@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihret Tsegaye's Portfolio</title>
+    <link rel="stylesheet" href="styles1.css">
+    <style>body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: #fff;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.intro {
+    padding: 4rem 1rem;
+}
+
+.intro h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+.intro .cta {
+    background: #ff6347;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.intro .cta:hover {
+    background: #e55335;
+}
+
+section {
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}</style>
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Mihret Tsegaye, a Web and Front Developer</p>
+            <a href="#portfolio" class="cta">Explore My Work</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a skilled web and front-end developer with a strong foundation in creating dynamic and responsive web applications. I am proficient in using various tools and technologies to deliver high-quality projects.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Backend Development</li>
+        </ul>
+        <h3>Education & Certifications</h3>
+        <ul>
+            <li>Field of Study: Backend Developer, Alx Online Course, 2016</li>
+            <li>2nd Year Student in Computer Science, CPU College, 2015</li>
+            <li>Bachelor's Degree in Economics, 3rd Year, AAU, 2014</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description: Detailed description of the project.</p>
+            <p>Technologies Used: HTML, CSS, JavaScript</p>
+            <p>Challenges and Solutions: Description of challenges faced and solutions implemented.</p>
+            <img src="img/project1.PNG" alt="Project 1 Screenshot">
+            <a href="https://github.com/Mercycermy/maleda" target="_blank">View Code</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description: Detailed description of the project.</p>
+            <p>Technologies Used: HTML, CSS, JavaScript</p>
+            <p>Challenges and Solutions: Description of challenges faced and solutions implemented.</p>
+            <img src="img/project2.PNG" alt="Project 2 Screenshot">
+            <a href="https://github.com/Mercycermy/new-rockgame" target="_blank">View Code</a>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download Resume</a>
+        <div class="online-resume">
+            <h3>Online Resume</h3>
+            <p>Look for more details on my <a href="https://github.com/Mercycermy" target="_blank">GitHub</a>.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: Mihrettse04@gmail.com</p>
+        <p>Phone: +251 960 5721 42</p>
+        <p>Location: Addis Ababa, Ethiopia</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/Mercycermy" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/Mercycermy" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <section id="tools">
+        <h2>Tools & Technologies</h2>
+        <p>I am proficient in a wide range of tools and technologies, including:</p>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Git & GitHub</li>
+            <li>Responsive Web Design</li>
+            <li>Testing & Debugging</li>
+        </ul>
+    </section>
+
+    <section id="newsletter">
+        <h2>Newsletter Sign-Up</h2>
+        <form>
+            <label for="newsletter-email">Email:</label>
+            <input type="email" id="newsletter-email" name="newsletter-email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mihret Tsegaye. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("YOUR_USER_ID");
+        })();
+        
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+                .then(function() {
+                    alert('Message sent successfully!');
+                }, function(error) {
+                    alert('Failed to send message. Please try again later.');
+                });
+        });
+    </script>
+</body>
+</html>
+
+<!-- styles1.css -->
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: #fff;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.intro {
+    padding: 4rem 1rem;
+}
+
+.intro h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+.intro .cta {
+    background: #ff6347;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.intro .cta:hover {
+    background: #e55335;
+}
+
+section {
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
